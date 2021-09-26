@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  align-content: center;
+}
+.all {
+  display: flex;
+  justify-content: center;
+}
+.whole {
+  background-image: url("./images/drawers.jpg");
+  opacity: 0.7;
+  line-height: 4vh;
+  padding-bottom: 4rem;
+  margin-top: 8rem;
+  width: 60vw;
+  padding-top: 1.3rem;
+}
+.frm {
+  display: block;
+  margin-top: 0.2rem;
+}
+label {
+  margin: 0.4rem;
+}
+input {
+  width: 30vw;
+  padding: 0.5rem;
+  margin: 0.1rem;
+}
+#submit {
+  width: 7rem;
+  background-color: black;
+  color: gray;
+}
+#demo {
+  color: black;
+  font-size: 1rem;
+}
+#demo2 {
+  color: black;
+  font-size: 1rem;
+}
+#demo3 {
+  color: black;
+  font-size: 1rem;
+}
