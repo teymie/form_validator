@@ -6,7 +6,7 @@ submit.addEventListener("click", validator);
 function validator(e) {
   e.preventDefault();
   let text;
-  let letters = /^[A-za-z]+$/;
+  let letters = /^[a-zA-Z\s]*$/;
   if (myName.value == "") {
     text = "Name cannot be empty!";
     document.getElementById("demo").innerText = text;
